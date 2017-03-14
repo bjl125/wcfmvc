@@ -1,0 +1,5 @@
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\bin\Release\WCFMVC.ModelObject.dll
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\bin\Release\WCFMVC.ModelObject.pdb
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\obj\Release\WCFMVC.ModelObject.csprojResolveAssemblyReference.cache
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\obj\Release\WCFMVC.ModelObject.dll
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\obj\Release\WCFMVC.ModelObject.pdb

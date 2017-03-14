@@ -1,0 +1,7 @@
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Release\WCFMVC.Domain.dll
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Release\WCFMVC.Domain.pdb
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Release\WCFMVC.ModelObject.dll
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Release\WCFMVC.ModelObject.pdb
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\obj\Release\WCFMVC.Domain.csprojResolveAssemblyReference.cache
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\obj\Release\WCFMVC.Domain.dll
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\obj\Release\WCFMVC.Domain.pdb
