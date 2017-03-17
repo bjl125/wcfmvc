@@ -20,9 +20,9 @@ namespace WCFMVC.Services
         {
             IUnityContainer container = new UnityContainer();
 
-            IConfigurationSource configurationSource = ConfigurationSourceFactory.Create();
-            LogWriterFactory logWriteFactory = new LogWriterFactory(configurationSource);
-            Logger.SetLogWriter(logWriteFactory.Create());
+            //IConfigurationSource configurationSource = ConfigurationSourceFactory.Create();
+            //LogWriterFactory logWriteFactory = new LogWriterFactory(configurationSource);
+            //Logger.SetLogWriter(logWriteFactory.Create());
 
             container.RegisterType<IEntlibLog, EntlibLog>();
             //操作类注册

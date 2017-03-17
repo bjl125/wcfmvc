@@ -69,10 +69,17 @@ namespace WCFMVC.Web.Controllers
         public ActionResult SetRoleInfo()
         {
             //UnityUserServices
+            try
+            {
+                var u = (new BaseClientLogic()).IRoleService.SetRole();//.GetUserInfo(1);
+                return Json(u, JsonRequestBehavior.AllowGet);
 
+            }
+            catch (Exception ex)
+            {
+                return Json(1);
+            }
 
-            var u = (new BaseClientLogic()).IRoleService.SetRole();//.GetUserInfo(1);
-            return Json(u, JsonRequestBehavior.AllowGet);
 
             //using (ChannelFactory<IRoleServices> cf = new ChannelFactory<IRoleServices>("IRoleServices"))
             //{

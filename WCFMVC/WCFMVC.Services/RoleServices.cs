@@ -38,8 +38,8 @@ namespace WCFMVC.Services
             catch(Exception ex)
             {
                 EntlibLogFactory.Log.LogError("seterror", ex);
-                
-                return 0;
+                throw ex;
+                //return 0;
             }
         }
     }

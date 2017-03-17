@@ -1,13 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Configuration;
+using Microsoft.Practices.EnterpriseLibrary.Common;
 using Microsoft.Practices.EnterpriseLibrary.Logging;
+using Microsoft.Practices.EnterpriseLibrary.Common.Configuration;
 using System.Web.Script.Serialization;
 
 namespace WCFMVC.Utility.Loging
 {
     public class EntlibLog : IEntlibLog
     {
+        static LogWriter defaultWriter;
+        static TraceManager traceMgr;
+
+        public EntlibLog()
+        {
+            IConfigurationSource configurationSource = ConfigurationSourceFactory.Create();
+            LogWriterFactory logWriterFactory = new LogWriterFactory(configurationSource);
+            defaultWriter = logWriterFactory.Create();
+        }
+
         public void LogError(string message, params object[] args)
         {
             Write(LoggingCategory.Error, message, new Exception(message), args);
@@ -46,7 +59,7 @@ namespace WCFMVC.Utility.Loging
         }
         void Write(LogEntry logent)
         {
-            Logger.Write(logent);
+            defaultWriter.Write(logent);
         }
     }
 

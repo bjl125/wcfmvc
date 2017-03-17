@@ -67,7 +67,7 @@
       <publishTime>03/13/2017 18:50:44</publishTime>
     </File>
     <File Include="bin/WCFMVC.Hosting.dll">
-      <publishTime>03/13/2017 18:52:15</publishTime>
+      <publishTime>03/15/2017 13:35:20</publishTime>
     </File>
     <File Include="bin/WCFMVC.ModelObject.dll">
       <publishTime>03/13/2017 18:50:42</publishTime>
@@ -76,13 +76,13 @@
       <publishTime>03/13/2017 18:50:44</publishTime>
     </File>
     <File Include="bin/WCFMVC.Services.dll">
-      <publishTime>03/13/2017 18:50:45</publishTime>
+      <publishTime>03/15/2017 13:35:17</publishTime>
     </File>
     <File Include="bin/WCFMVC.Utility.dll">
-      <publishTime>03/13/2017 18:50:42</publishTime>
+      <publishTime>03/15/2017 13:35:17</publishTime>
     </File>
     <File Include="EnterpriseLibrary.config">
-      <publishTime>03/13/2017 17:31:41</publishTime>
+      <publishTime>03/15/2017 13:22:36</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>02/24/2017 16:47:10</publishTime>
