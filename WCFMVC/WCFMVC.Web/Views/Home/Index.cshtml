@@ -18,7 +18,8 @@
         </p>
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
         <p><a class="btn btn-primary" onclick="GetUser()">GetUser</a></p>
-        <p><a class="btn btn-primary" onclick="GetRole()">GetUser</a></p>
+        <p><a class="btn btn-primary" onclick="GetRole()">GetRole</a></p>
+        <p><a class="btn btn-primary" onclick="SetRole()">SetRole</a></p>
     </div>
     <div class="col-md-4">
         <h2>Get more libraries</h2>
@@ -35,13 +36,19 @@
     function GetUser() {
         $.getJSON("/Home/GetUserInfo", function (data) {
             data = JSON.stringify(data);
-            alert(data);
+            //alert(data);
         })
     }
     function GetRole() {
+        $.getJSON("/Home/GetRole", function (data) {
+            data = JSON.stringify(data);
+            //alert(data);
+        })
+    }
+    function SetRole() {
         $.getJSON("/Home/SetRoleInfo", function (data) {
             data = JSON.stringify(data);
-            alert(data);
+            //alert(data);
         })
     }
 </script>

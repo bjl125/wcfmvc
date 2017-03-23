@@ -2,4 +2,3 @@ D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\bin\Debug\WCFMVC.ModelObject.dll
 D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\bin\Debug\WCFMVC.ModelObject.pdb
 D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\obj\Debug\WCFMVC.ModelObject.dll
 D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\obj\Debug\WCFMVC.ModelObject.pdb
-D:\MyProject\WCFMVC\WCFMVC\WCFMVC.ModelObject\obj\Debug\WCFMVC.ModelObject.csprojResolveAssemblyReference.cache

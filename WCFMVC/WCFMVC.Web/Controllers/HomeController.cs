@@ -65,6 +65,12 @@ namespace WCFMVC.Web.Controllers
             //}
         }
 
+        public ActionResult GetRole()
+        {
+
+            var u = (new BaseClientLogic()).IRoleService.GetRole();//.GetUserInfo(1);
+            return Json(u, JsonRequestBehavior.AllowGet);
+        }
 
         public ActionResult SetRoleInfo()
         {
@@ -77,7 +83,7 @@ namespace WCFMVC.Web.Controllers
             }
             catch (Exception ex)
             {
-                return Json(1);
+                return Json(1,JsonRequestBehavior.AllowGet);
             }
 
 

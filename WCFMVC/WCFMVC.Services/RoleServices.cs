@@ -9,9 +9,11 @@ using WCFMVC.ServiceContract;
 using WCFMVC.ModelObject;
 using WCFMVC.ModelObject.Models;
 using WCFMVC.Utility.Loging;
+using WCFMVC.Utility.ErrorHandlers;
+using WCFMVC.Utility.Log4net;
 namespace WCFMVC.Services
 {
-
+    [ServiceErrorHandler]
     public class RoleServices : ServiceBase, IRoleServices
     {
 
@@ -25,6 +27,23 @@ namespace WCFMVC.Services
             return roleRepository.UpdateRoleName(id, name);
         }
 
+        public int GetRole()
+        {
+            try
+            {
+            int[] s = { 1, 2 };
+
+            int s2 = s[3];
+
+            }
+            catch(Exception ex)
+            {
+
+                ILog4net.Debug("GetRole", "Role", ex.Message, ex);
+                EntlibLogFactory.Log.LogError("seterror", ex);
+            }
+            return 1;
+        }
         public int SetRole()
         {
             int d = 0;
@@ -37,6 +56,8 @@ namespace WCFMVC.Services
             }
             catch(Exception ex)
             {
+                ILog4net.Debug("SetRole", "Role", ex.Message, ex);
+
                 EntlibLogFactory.Log.LogError("seterror", ex);
                 throw ex;
                 //return 0;

@@ -10,6 +10,7 @@ using WCFMVC.ServiceContract;
 using WCFMVC.Domain;
 using WCFMVC.Services.Unity;
 using WCFMVC.Utility.Loging;
+using WCFMVC.Utility.Log4net;
 using Microsoft.Practices.EnterpriseLibrary.Common.Configuration;
 
 namespace WCFMVC.Services
@@ -25,6 +26,8 @@ namespace WCFMVC.Services
             //Logger.SetLogWriter(logWriteFactory.Create());
 
             container.RegisterType<IEntlibLog, EntlibLog>();
+
+            container.RegisterType<ILog4net>(new ContainerControlledLifetimeManager(), new InjectionFactory(c => Log4netManager.GetLogger("log4netlogger")));
             //操作类注册
             container.RegisterType<IUserRepository, UserRepository>();
             container.RegisterType<IRoleRepository, RoleRepository>();

@@ -18,5 +18,8 @@ namespace WCFMVC.ServiceContract
         [OperationContract]
         int SetRole();
 
+        [OperationContract]
+        int GetRole();
+
     }
 }
