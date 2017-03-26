@@ -5,3 +5,9 @@ D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Debug\WCFMVC.ModelObject.pdb
 D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\obj\Debug\WCFMVC.Domain.csprojResolveAssemblyReference.cache
 D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\obj\Debug\WCFMVC.Domain.dll
 D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\obj\Debug\WCFMVC.Domain.pdb
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Debug\WCFMVC.Domain.dll.config
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Debug\EntityFramework.dll
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Debug\EntityFramework.xml
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\MyProject\WCFMVC\WCFMVC\WCFMVC.Domain\bin\Debug\zh-Hans\EntityFramework.resources.dll
